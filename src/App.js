@@ -1,10 +1,11 @@
-import Pages from "./component/Pages";
 import "./App.css";
 
 const App = () => {
   return (
     <>
-      <Pages />
+      <div>
+        <h1>dilshod soaltqulov</h1>
+      </div>
     </>
   );
 };
