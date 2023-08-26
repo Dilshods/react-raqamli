@@ -1,1 +1,1 @@
-# react-raqamli
+# chipta-olish
