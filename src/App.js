@@ -1,11 +1,9 @@
 import "./App.css";
-
+import Pages from "./component/Pages";
 const App = () => {
   return (
     <>
-      <div>
-        <h1>dilshod soaltqulov</h1>
-      </div>
+      <Pages />
     </>
   );
 };
