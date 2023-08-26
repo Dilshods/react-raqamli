@@ -1,1 +1,1 @@
-# chipta-olish
+# Raqamli Avlod
