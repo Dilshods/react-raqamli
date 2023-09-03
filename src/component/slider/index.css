@@ -1,0 +1,91 @@
+.carousel-item {
+  display: inline-flex;
+  justify-content: center;
+  height: 460px;
+  width: 100%;
+}
+
+.carousel-item-text {
+  font-size: 1.15rem;
+  white-space: normal;
+  width: 58%;
+  background-color: #f5f4f4;
+  border-radius: 20px;
+  padding: 0px;
+}
+.carousel-img {
+  width: 38%;
+  border-radius: 20px;
+  height: 100%;
+}
+.title-btn {
+  margin: 35px;
+}
+.title-btn p {
+  width: 100%;
+  margin-top: 41px;
+}
+.title-btn p:hover {
+  color: #1de50f;
+}
+.title-btn h2:hover {
+  color: #1de50f;
+}
+.corusel-button {
+  border: 1px solid;
+  border-color: #d88300;
+  border-radius: 60px;
+  height: 46px;
+  width: 229px;
+  margin-top: 82px;
+  color: #d88300;
+  font-family: "Hind Madurai-Light", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+}
+.corusel-button:hover {
+  background-color: #d88300;
+  color: #f5f4f4;
+}
+@media screen and (max-width: 992px) {
+  .title-btn p {
+    margin-top: 30px;
+  }
+  .carousel-item-text {
+    text-align: center;
+  }
+  .corusel-button {
+    margin-top: 35px;
+  }
+  .carousel-item {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .carousel-item-text {
+    position: absolute;
+    width: 100%;
+    background: none;
+    color: #f5f4f4;
+  }
+  .title-btn p {
+    color: #f5f4f4;
+    font-size: 2vw;
+  }
+  .title-btn h2 {
+    margin-top: 20px;
+  }
+  .carousel-img {
+    width: 100%;
+    text-align: center;
+  }
+  @media screen and (max-width: 520px) {
+    .title-btn p {
+      color: #f4f5f4;
+      font-size: 3vw;
+    }
+    .corusel-button {
+      margin-top: 30px;
+      width: 100%;
+    }
+  }
+}
